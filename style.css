@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #6889ff, #c668ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.countertimer {
+  display: flex;
+}
+
+.countertimer > p {
+  font-size: 1.2rem;
+  padding: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.countertimer > p > span {
+  display: block;
+  font-size: 4rem;
+}
