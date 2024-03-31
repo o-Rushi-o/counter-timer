@@ -8,7 +8,7 @@
   width: 100%;
   height: 100vh;
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: hidden;
   background-image: linear-gradient(to bottom right, #6889ff, #c668ff);
   display: flex;
   justify-content: center;
